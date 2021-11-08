@@ -1,1 +1,12 @@
-/Users/nealhowland/Brewfile
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "microsoft/mssql-release"
+brew "unixodbc"
+brew "freetds"
+brew "nmap"
+brew "pyenv", args: ["HEAD"]
+brew "python@3.9"
+brew "starship"
+brew "tcl-tk"
+brew "telnet"
