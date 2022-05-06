@@ -45,3 +45,11 @@ alias ls='ls -GF'
 alias zshreload='source ~/.zshrc'
 alias grep='grep --color=auto'
 
+
+# Created by `pipx` on 2022-02-04 17:17:08
+export PATH="$PATH:/Users/nealhowland/.local/bin"
+
+
+# Enable pipx autocompletions
+eval "$(register-python-argcomplete pipx)"
+
